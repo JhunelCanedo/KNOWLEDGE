@@ -1,0 +1,16 @@
+
+.container {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 40%;
+    gap: 10px;
+    text-align: left;
+
+}
+.title-container {
+    padding: 10px;
+}
+section img {
+    display: block;
+}

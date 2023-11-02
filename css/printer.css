@@ -1,0 +1,9 @@
+.printer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.printer-section {
+    width: 50%;
+}
