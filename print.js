@@ -25,7 +25,12 @@ const printer = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eius sit consectetur voluptate praesentium ipsa?',
         image: '/printer/pexels-cottonbro-studio-4123764.jpg'
     },
-
+   
+    {
+        step: 'Step 6',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eius sit consectetur voluptate praesentium ipsa?',
+        image: '/printer/pexels-cottonbro-studio-4123764.jpg'
+    },
 ];
 
 
@@ -41,7 +46,7 @@ printer.forEach(element =>{
             <h4>${element.step}</h4>
             <p>${element.description}</p>
         </div>
-            <img src="${element.image}" alt="" loading= 'lazy'>
+            <img src="${element.image}" alt="">
     </section>
     `
 });

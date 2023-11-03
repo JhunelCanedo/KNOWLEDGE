@@ -46,11 +46,10 @@ h1 {
 
 
 
-.main {
+.main{
     text-align: center;
     font-size: 2rem;
     display: grid;
-    
     max-width: 1548px;
     margin: 0 auto;
     padding: 10px;
@@ -76,18 +75,16 @@ h1 {
     font-weight: 500;
     padding: 10px 0;
 }
-.element {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
 
+.element {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 .element .title {
     font-size: 1rem;
     font-weight: 700;
 }
-@media (min-width: 640px) {
-    
 
-}
+/* @media (min-width: 640px) {} */
 
 @media (min-width: 768px) {
     .menu-list {
@@ -107,6 +104,7 @@ h1 {
     .description-container h1 {
         font-size: 3rem;
     }
+   
     
 }
 

@@ -23,6 +23,7 @@ const list = [
         title: 'Camera Tutorial',
         image: 'images/pexels-valentine-tanasovich-2588757.jpg'
     },
+    
 
 ];
 const menu = document.querySelector('.menu-list');
